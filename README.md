@@ -1,15 +1,5 @@
-# 👷 `worker-template` Hello World
+# region-workers-example
 
-A template for kick starting a Cloudflare worker project.
+Example Cloudflare Workers project showing how to return HTML responses with enriched region data.
 
-[`index.js`](https://github.com/cloudflare/worker-template/blob/master/index.js) is the content of the Workers script.
-
-#### Wrangler
-
-To generate using [wrangler](https://github.com/cloudflare/wrangler)
-
-```
-wrangler generate projectname https://github.com/cloudflare/worker-template
-```
-
-Further documentation for Wrangler can be found [here](https://developers.cloudflare.com/workers/tooling/wrangler).
+Built for the upcoming Egghead.io course on Cloudflare Workers!
