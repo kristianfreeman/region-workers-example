@@ -5,7 +5,7 @@ addEventListener('fetch', event => {
 })
 
 async function handleRequest(request) {
-  return new Response(template, {
+  return new Response(template(request.cf), {
     headers: { 'content-type': 'text/html' },
   })
 }
