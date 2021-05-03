@@ -34,7 +34,7 @@ const template = cf => {
 
       <body>
         <div class="container">
-          <h1>Hello there! You're connecting from ${cf.country} ${emoji}</h1>
+          <h1>Hello there! You're connecting from ${cf.city} in ${cf.country} ${emoji}</h1>
         </div>
       </body>
     </html>
